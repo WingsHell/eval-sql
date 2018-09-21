@@ -7,4 +7,4 @@ on e.id_year = y.id
 join student as s
 on s.id = a.id_student
 group by y.id
-order by moyenne DESC, lastname ASC; 
+order by moyenne DESC, s.lastname ASC; 
